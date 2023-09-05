@@ -28,7 +28,7 @@ function App() {
   return (
     <BrowserRouter>
       {wagmiClient && (
-        <WagmiConfig client={wagmiClient}>
+        <WagmiConfig>
           <AlertMessageProvider>
             <LoadingProvider>
               <MobileMenuProvider>
